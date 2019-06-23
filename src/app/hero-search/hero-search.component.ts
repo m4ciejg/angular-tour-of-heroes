@@ -43,4 +43,8 @@ export class HeroSearchComponent implements OnInit {
   selectById(){
     this.heroService.selectById().subscribe();
   }
+
+  helloThereFromNewOne(){
+    console.log("Hello test");
+  }
 }
